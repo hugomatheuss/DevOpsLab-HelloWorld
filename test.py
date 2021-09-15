@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         result = self.app.get('/') 
 
         # verifica o retorno do conteudo da pagina
-        self.assertRegex(result.data.decode(), "Escreva uma Mensagem para o Cabecalho da Pagina.")
+        self.assertRegex(result.data.decode(), "Teste de CI com GitHub.")
 
 
 if __name__ == "__main__":
